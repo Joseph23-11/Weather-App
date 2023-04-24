@@ -1,0 +1,271 @@
+.App {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden; /* tambahkan property ini untuk menghilangkan horizontal scroll */
+}
+
+.body-app {
+  background-image: url("./assets/images/background.png");
+  height: 100vh; /* Mengatur tinggi menjadi 100 viewport height (vh) */
+  background-size: cover; /* Mengatur ukuran background hingga mengisi seluruh area body-app */
+  background-position: center; /* Mengatur posisi background di tengah-tengah body-app */
+  /* atur properti lain sesuai kebutuhan Anda */
+}
+
+.navbar {
+  height: 92px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.19);
+}
+
+.logo-brand a {
+  margin: 14px 72px;
+  color: white;
+  text-weight: 400;
+  font-size: 24px;
+}
+
+.logo-brand a span {
+  margin-left: 14px;
+}
+
+.logo-brand a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.login-page .col-sm-4 {
+  height: 100vh;
+  padding: 0;
+  max-width: 100%; /* tambahkan property ini untuk membuat lebar tidak melebihi lebar layar */
+}
+
+.login-page .col-sm-4 .background {
+  background: linear-gradient(
+    to top right,
+    rgba(120, 120, 245, 1),
+    rgba(130, 225, 255, 0.48)
+  );
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.2);
+}
+
+.login-page .col-sm-4 .background img {
+  opacity: 1;
+}
+
+.login-page .col-sm-4 .background h1 {
+  opacity: 1;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.login-page .col-sm-8 .input-data {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page .col-sm-8 .input-data h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.login-page .col-sm-8 .input-data p {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.login-page .col-sm-8 .input-data form {
+  margin-top: 40px;
+}
+
+.login-page .col-sm-8 .input-data form .form-input-label {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.login-page .col-sm-8 .input-data form {
+  width: 346px;
+}
+
+.login-page .col-sm-8 .input-data form .form-group .box-input {
+  border: 2px solid #eaebf6;
+  border-radius: 50px;
+  width: 346px;
+  height: 56px;
+  padding: 16px 24px;
+}
+
+.login-page .col-sm-8 .input-data form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.login-page .col-sm-8 .input-data form .form-check {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #bbbec7;
+}
+
+.login-page .col-sm-8 .input-data form .button {
+  width: 100%;
+  height: 56px;
+  background: linear-gradient(to right, #a4a4ff, #82e1ff);
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-radius: 50px;
+  margin-top: 54px;
+}
+
+.login-page .col-sm-8 .input-data form .button img {
+  margin-left: 10px;
+}
+
+.login-page .col-sm-8 .input-data form .forgot-password a {
+  color: #6531bd !important;
+}
+
+.login-page .col-sm-8 .input-data form .forgot-password a:hover {
+  text-decoration: none;
+}
+
+.main-card {
+  margin-top: 140px;
+}
+
+.left-card {
+  width: 450px;
+  height: 575px;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border: 1.6px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(32px);
+  border-radius: 48px;
+  padding: 24px 32px;
+}
+
+.left-card .place {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  margin-left: 15px;
+}
+
+.left-card .date {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+.left-card .col-sm-12 .suhu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 144px;
+  font-weight: 300;
+}
+
+.left-card .col-sm-12 .suhu span {
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 170px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.left-card .col-sm-12 .keterangan-cuaca {
+  color: white;
+  margin-top: -60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.left-card .persen {
+  color: white;
+  margin-top: 20px;
+}
+
+.left-card .persen span {
+  margin-left: 13px;
+}
+
+.right-card {
+  width: 450px;
+  height: 575px;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border: 1.6px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(32px);
+  border-radius: 48px;
+  padding: 24px 32px;
+}
+
+.right-card .heading-sliding {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.right-card .sub-heading-sliding {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.right-card .close-open {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 56px;
+}
+
+.right-card .keterangan-sliding {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  width: 10%;
+}
+
+.button-container {
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  width: 54px;
+  height: 29px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #ff89b6; /* default background color */
+}
+
+.button {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background-color: white; /* default background color */
+  transition: all 0.3s ease;
+}
+
+.button.active {
+  transform: translateX(25px);
+  background-color: white; /* button color when active */
+}
+
+.button-container.active {
+  background-color: #a4a4ff; /* button container color when inactive */
+}
