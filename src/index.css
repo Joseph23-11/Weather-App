@@ -1,11 +1,11 @@
 .App {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden; /* tambahkan property ini untuk menghilangkan horizontal scroll */
 }
 
 .body-app {
-  background-image: url("./assets/images/background.png");
+  background-image: url('./assets/images/background.png');
   height: 100vh; /* Mengatur tinggi menjadi 100 viewport height (vh) */
   background-size: cover; /* Mengatur ukuran background hingga mengisi seluruh area body-app */
   background-position: center; /* Mengatur posisi background di tengah-tengah body-app */
@@ -248,7 +248,7 @@
   justify-content: center;
   width: 54px;
   height: 29px;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   background-color: #ff89b6; /* default background color */
 }
